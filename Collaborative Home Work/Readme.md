@@ -20,15 +20,12 @@ pip install Pillow
 ```
 
 ## Usage
-
+Open CMD in the main directory ie "Collaborative home works"
+Type following command in cmd
 ```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+python manage.py runserver
 ```
-
+It will give you a local url with which you can navigate to website
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
